@@ -5,6 +5,7 @@ import Categories from '../sections/Categories';
 import Story from '../sections/Story';
 import Features from '../sections/Features';
 import Testimonials from '../sections/Testimonials';
+import BestSellers from '../sections/BestSellers';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <main>
         <Hero />
         <Categories />
+        <BestSellers />
         <Story />
         <Features />
         <Testimonials />
