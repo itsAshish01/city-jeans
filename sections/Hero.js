@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <header>
       <Navbar />
-      <div className='relative bg-white overflow-hidden'>
+      <div className='relative bg-white overflow-hidden -z-10'>
         <div className='pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48'>
           <div className='relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static'>
             <div className='sm:max-w-lg'>
@@ -29,37 +29,14 @@ export default function Hero() {
                       <div className='flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8'>
                         <div className='w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100'>
                           <img
-                            src='https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg'
+                            src='https://res.cloudinary.com/ashishimages/image/upload/v1656772071/city-jeans/img-7_amjrbb.webp'
                             alt=''
                             className='w-full h-full object-center object-cover'
                           />
                         </div>
                         <div className='w-44 h-64 rounded-lg overflow-hidden'>
                           <img
-                            src='https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg'
-                            alt=''
-                            className='w-full h-full object-center object-cover'
-                          />
-                        </div>
-                      </div>
-                      <div className='flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8'>
-                        <div className='w-44 h-64 rounded-lg overflow-hidden'>
-                          <img
-                            src='https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg'
-                            alt=''
-                            className='w-full h-full object-center object-cover'
-                          />
-                        </div>
-                        <div className='w-44 h-64 rounded-lg overflow-hidden'>
-                          <img
-                            src='https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg'
-                            alt=''
-                            className='w-full h-full object-center object-cover'
-                          />
-                        </div>
-                        <div className='w-44 h-64 rounded-lg overflow-hidden'>
-                          <img
-                            src='https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg'
+                            src='https://res.cloudinary.com/ashishimages/image/upload/v1656772071/city-jeans/img-4_dm7npq.jpg'
                             alt=''
                             className='w-full h-full object-center object-cover'
                           />
@@ -68,14 +45,37 @@ export default function Hero() {
                       <div className='flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8'>
                         <div className='w-44 h-64 rounded-lg overflow-hidden'>
                           <img
-                            src='https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg'
+                            src='https://res.cloudinary.com/ashishimages/image/upload/v1656772071/city-jeans/img-6_yzrbcw.webp'
                             alt=''
                             className='w-full h-full object-center object-cover'
                           />
                         </div>
                         <div className='w-44 h-64 rounded-lg overflow-hidden'>
                           <img
-                            src='https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg'
+                            src='https://res.cloudinary.com/ashishimages/image/upload/v1656772072/city-jeans/img-3_mt898e.jpg'
+                            alt=''
+                            className='w-full h-full object-center object-cover'
+                          />
+                        </div>
+                        <div className='w-44 h-64 rounded-lg overflow-hidden'>
+                          <img
+                            src='https://res.cloudinary.com/ashishimages/image/upload/v1656772906/city-jeans/img-10_b1ihod.jpg'
+                            alt=''
+                            className='w-full h-full object-center object-cover'
+                          />
+                        </div>
+                      </div>
+                      <div className='flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8'>
+                        <div className='w-44 h-64 rounded-lg overflow-hidden'>
+                          <img
+                            src='https://res.cloudinary.com/ashishimages/image/upload/v1656772748/city-jeans/img-8_nx5j4c.webp'
+                            alt=''
+                            className='w-full h-full object-center object-cover'
+                          />
+                        </div>
+                        <div className='w-44 h-64 rounded-lg overflow-hidden'>
+                          <img
+                            src='https://res.cloudinary.com/ashishimages/image/upload/v1656772071/city-jeans/img-2_gjtogd.webp'
                             alt=''
                             className='w-full h-full object-center object-cover'
                           />
