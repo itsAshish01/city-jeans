@@ -1,6 +1,6 @@
 export default function Story() {
   return (
-    <div className='relative bg-slate-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16'>
+    <section className='relative bg-slate-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16'>
       <div className='absolute inset-0 overflow-hidden'>
         <img
           src='https://tailwindui.com/img/ecommerce-images/home-page-03-feature-section-full-width.jpg'
@@ -28,6 +28,6 @@ export default function Story() {
           Read our story
         </a>
       </div>
-    </div>
+    </section>
   );
 }

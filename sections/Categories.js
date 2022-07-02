@@ -1,6 +1,6 @@
 export default function Categories() {
   return (
-    <div className='bg-slate-50'>
+    <section className='bg-slate-50'>
       <div className='max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8'>
         <div className='sm:flex sm:items-baseline sm:justify-between'>
           <h2 className='text-2xl font-semibold tracking-tight text-slate-900'>
@@ -98,6 +98,6 @@ export default function Categories() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

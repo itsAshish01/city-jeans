@@ -21,7 +21,7 @@ const perks = [
 
 export default function Features() {
   return (
-    <div className='bg-white'>
+    <section className='bg-white'>
       <div className='max-w-7xl mx-auto px-4 py-24 sm:px-6 lg:px-8'>
         <div className='bg-slate-50 rounded-2xl px-6 py-16 sm:p-16'>
           <div className='max-w-xl mx-auto lg:max-w-none'>
@@ -40,6 +40,6 @@ export default function Features() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

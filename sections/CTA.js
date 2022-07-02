@@ -1,6 +1,6 @@
 export default function CTA() {
   return (
-    <div className='bg-white'>
+    <section className='bg-white'>
       <div className='pt-32 overflow-hidden sm:pt-14'>
         <div className='bg-slate-800'>
           <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
@@ -80,6 +80,6 @@ export default function CTA() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
