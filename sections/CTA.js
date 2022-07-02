@@ -26,16 +26,16 @@ export default function CTA() {
                   <div className='flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8'>
                     <div className='flex-shrink-0'>
                       <img
-                        className='h-64 w-64 rounded-lg object-cover md:h-72 md:w-72'
-                        src='https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg'
+                        className='h-64 w-64 rounded-lg object-cover object-top md:h-72 md:w-72'
+                        src='https://res.cloudinary.com/ashishimages/image/upload/v1656772748/city-jeans/img-8_nx5j4c.webp'
                         alt=''
                       />
                     </div>
 
                     <div className='mt-6 flex-shrink-0 sm:mt-0'>
                       <img
-                        className='h-64 w-64 rounded-lg object-cover md:h-72 md:w-72'
-                        src='https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg'
+                        className='h-64 w-64 rounded-lg object-cover object-top md:h-72 md:w-72'
+                        src='https://res.cloudinary.com/ashishimages/image/upload/v1656772071/city-jeans/img-4_dm7npq.jpg'
                         alt=''
                       />
                     </div>
@@ -43,16 +43,16 @@ export default function CTA() {
                   <div className='flex space-x-6 sm:-mt-20 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8'>
                     <div className='flex-shrink-0'>
                       <img
-                        className='h-64 w-64 rounded-lg object-cover md:h-72 md:w-72'
-                        src='https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-01.jpg'
+                        className='h-64 w-64 rounded-lg object-cover object-top md:h-72 md:w-72'
+                        src='https://res.cloudinary.com/ashishimages/image/upload/v1656772071/city-jeans/img-2_gjtogd.webp'
                         alt=''
                       />
                     </div>
 
                     <div className='mt-6 flex-shrink-0 sm:mt-0'>
                       <img
-                        className='h-64 w-64 rounded-lg object-cover md:h-72 md:w-72'
-                        src='https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-02.jpg'
+                        className='h-64 w-64 rounded-lg object-cover object-top md:h-72 md:w-72'
+                        src='https://res.cloudinary.com/ashishimages/image/upload/v1656772071/city-jeans/img-6_yzrbcw.webp'
                         alt=''
                       />
                     </div>
@@ -61,7 +61,7 @@ export default function CTA() {
                     <div className='flex-shrink-0'>
                       <img
                         className='h-64 w-64 rounded-lg object-cover md:h-72 md:w-72'
-                        src='https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg'
+                        src='https://res.cloudinary.com/ashishimages/image/upload/v1656772071/city-jeans/img-7_amjrbb.webp'
                         alt=''
                       />
                     </div>
@@ -69,7 +69,7 @@ export default function CTA() {
                     <div className='mt-6 flex-shrink-0 sm:mt-0'>
                       <img
                         className='h-64 w-64 rounded-lg object-cover md:h-72 md:w-72'
-                        src='https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg'
+                        src='https://res.cloudinary.com/ashishimages/image/upload/v1656772072/city-jeans/img-3_mt898e.jpg'
                         alt=''
                       />
                     </div>
