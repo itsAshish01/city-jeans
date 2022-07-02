@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Hero from '../sections/Hero';
 import Categories from '../sections/Categories';
 import Story from '../sections/Story';
-import Feature from '../sections/Feature';
+import Features from '../sections/Features';
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         <Hero />
         <Categories />
         <Story />
-        <Feature />
+        <Features />
       </main>
     </div>
   );
