@@ -3,7 +3,7 @@ import FeatureSpan from '../components/FeatureSpan';
 
 const perks = [
   {
-    name: '10-year all-inclusive warranty',
+    name: '10-days exchange period',
     description: 'We’ll replace it with a new one',
     icon: CalendarIcon,
   },
@@ -32,7 +32,7 @@ export default function Features() {
             </div>
 
             <h2 className='sr-only'>Our perks</h2>
-            <div className='max-w-7xl mx-auto divide-y divide-gray-200 lg:py-8 lg:flex lg:justify-center lg:divide-y-0 lg:divide-x'>
+            <div className='max-w-7xl mx-auto divide-y divide-slate-200 lg:py-8 lg:flex lg:justify-center lg:divide-y-0 lg:divide-x'>
               {perks.map((perk) => (
                 <FeatureSpan perk={perk} key={perk.name} />
               ))}
