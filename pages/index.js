@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Categories from '../sections/Categories';
 
 import Hero from '../sections/Hero';
 
@@ -13,6 +14,7 @@ export default function Home() {
 
       <main>
         <Hero />
+        <Categories />
       </main>
     </div>
   );
