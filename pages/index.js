@@ -7,6 +7,7 @@ import Features from '../sections/Features';
 import Testimonials from '../sections/Testimonials';
 import BestSellers from '../sections/BestSellers';
 import CTA from '../sections/CTA';
+import Footer from '../sections/Footer';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Features />
         <Testimonials />
         <CTA />
+        <Footer />
       </main>
     </div>
   );
