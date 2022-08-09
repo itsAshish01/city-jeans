@@ -1,12 +1,13 @@
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { ShoppingBagIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
+import Link from 'next/link';
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Collection', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
-  { name: 'About', href: '#', current: false },
+  { name: 'Home', href: '/', current: false },
+  { name: 'Collection', href: '/collection', current: false },
+  { name: 'Contact', href: '/contact', current: false },
+  { name: 'About', href: '/about', current: false },
 ];
 
 function classNames(...classes) {
@@ -32,11 +33,13 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-start'>
-                <div className='flex-shrink-0 flex items-center'>
-                  <h1 className='font-cursive text-2xl text-white'>
-                    City Jeans
-                  </h1>
-                </div>
+                <Link href={'/'}>
+                  <div className='flex-shrink-0 flex items-center cursor-pointer'>
+                    <h1 className='font-cursive text-2xl text-white'>
+                      City Jeans
+                    </h1>
+                  </div>
+                </Link>
                 <div className='hidden sm:block sm:ml-6'>
                   <div className='flex ml-4 space-x-4'>
                     {navigation.map((item) => (

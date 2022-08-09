@@ -10,6 +10,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      extend: {
+        gridTemplateRows: {
+          '[auto,auto,1fr]': 'auto auto 1fr',
+        },
+      },
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
         cursive: ['Megrim'],
